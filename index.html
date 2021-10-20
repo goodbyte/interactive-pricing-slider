@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Princing Slider</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="title">
+    <h1>Simple, traffic-based pricing</h1>
+    <h2>Sign-up for out 30-day trial. No credit card required.</h2>
+    <img src="images/pattern-circles.svg" alt="decals">
+  </div>
+  <div class="pricing-card">
+    <div class="pricing">
+      <div class="price">
+        <h1><span class="page-views">1.600.000</span> pageviews</h1>
+        <p><span class="slider-value">$16.00</span> /month</p>
+      </div>
+      <div class="slider-wrap">
+        <input type="range" class="slider" min="0" max="32" value="16">
+        <div class="selector">
+          <div class="select-btn">
+            <img src="images/icon-slider.svg" alt="">
+          </div>
+        </div>
+        <span class="slider-filled"></span>
+      </div>
+      <div class="billing">
+        <span>Monthly Billing</span>
+        <input type="checkbox" class="billing-type">
+        <div class="yearly">
+          <span>Yearly Billing</span>
+          <span class="tag">25% discount</span>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="cta">
+      <div class="features">
+        <div class="feature">
+          <img src="images/icon-check.svg">
+          <span>Unlimited websites</span>
+        </div>
+        <div class="feature">
+          <img src="images/icon-check.svg">
+          <span>100% data ownership</span>
+        </div><div class="feature">
+          <img src="images/icon-check.svg">
+          <span>Email reports</span>
+        </div>
+      </div>
+      <button>Start my trial</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
